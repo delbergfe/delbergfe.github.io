@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Krishna Acharya — Digital Growth & AI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Acharya — Digital Marketing & AI</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    a { transition: 0.3s; }
+    a:hover { color: #facc15; }
+  </style>
 </head>
-
-<body class="bg-gray-950 text-gray-100">
+<body class="bg-gray-950 text-gray-100 scroll-smooth">
 
 <!-- NAV -->
 <nav class="fixed w-full bg-gray-900/80 backdrop-blur border-b border-gray-800 z-50">
-  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between">
-    <span class="font-bold text-xl">Krishna</span>
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="font-bold text-2xl">Krishna</span>
     <div class="space-x-6 text-gray-300">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -23,67 +28,38 @@
 </nav>
 
 <!-- HERO -->
-<section class="min-h-screen flex items-center justify-center text-center px-6">
-  <div>
-    <h1 class="text-5xl md:text-7xl font-bold mb-4">
-      Krishna Acharya
-    </h1>
-    <p class="text-xl text-gray-400 mb-6">
-      Digital Marketing • SEO • AI Tools • Growth Consultant
-    </p>
-    <a href="#contact"
-       class="inline-block bg-white text-black px-6 py-3 rounded-xl font-semibold">
-      Work With Me
-    </a>
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-gray-900 to-gray-800">
+  <img src="your-photo.jpg" alt="Krishna Acharya" class="w-40 h-40 rounded-full mb-6 mx-auto border-4 border-gray-700">
+  <h1 class="text-5xl md:text-6xl font-bold mb-4">Krishna Acharya</h1>
+  <p class="text-xl md:text-2xl text-gray-400 mb-6">Digital Marketing • SEO • AI Tools • Growth Consultant</p>
+  <div class="flex justify-center gap-4 mb-6">
+    <a href="https://www.linkedin.com/in/krishna-acharya-011151233/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/delbergfe" target="_blank">GitHub</a>
+    <a href="https://www.youtube.com/@krishnaacharya5335" target="_blank">YouTube</a>
   </div>
+  <a href="#contact" class="inline-block bg-yellow-500 text-black px-8 py-3 rounded-xl font-semibold hover:bg-yellow-400">Work With Me</a>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="max-w-4xl mx-auto px-6 py-24">
-  <h2 class="text-3xl font-bold mb-4">About Me</h2>
+<section id="about" class="max-w-4xl mx-auto px-6 py-24 text-center md:text-left">
+  <h2 class="text-4xl font-bold mb-6">About Me</h2>
+  <p class="text-gray-400 leading-relaxed mb-4">
+    I'm Krishna Acharya, a digital marketing consultant from Nepal. I help brands grow globally using SEO strategies, AI-powered tools, and content marketing.  
+    I am passionate about combining technology and creativity to deliver measurable results.
+  </p>
   <p class="text-gray-400 leading-relaxed">
-    I'm a digital marketing consultant from Nepal helping brands grow globally 
-    using SEO, content strategy, and AI-powered tools.
+    With experience in SEO, content strategy, AI automation, and digital growth, I provide actionable solutions for businesses looking to expand their online presence.
   </p>
 </section>
 
 <!-- SKILLS -->
 <section id="skills" class="bg-gray-900 py-24">
-  <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-bold mb-8">Skills</h2>
-    <div class="grid md:grid-cols-3 gap-6">
-      <div class="p-6 bg-gray-800 rounded-xl">SEO & Content</div>
-      <div class="p-6 bg-gray-800 rounded-xl">AI Tools & Automation</div>
-      <div class="p-6 bg-gray-800 rounded-xl">Growth Marketing</div>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="max-w-6xl mx-auto px-6 py-24">
-  <h2 class="text-3xl font-bold mb-8">Projects</h2>
-  <div class="grid md:grid-cols-2 gap-6">
-    <div class="p-6 border border-gray-800 rounded-xl">
-      Personal Brand Website
-    </div>
-    <div class="p-6 border border-gray-800 rounded-xl">
-      AI Content Platform
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="bg-gray-900 py-24 text-center">
-  <h2 class="text-3xl font-bold mb-4">Contact</h2>
-  <p class="text-gray-400 mb-6">
-    Let's build something impactful.
-  </p>
-  <p class="text-lg">Email: krishnaacharya1415@gmail.com</p>
-</section>
-
-<footer class="text-center text-gray-500 py-6">
-  © 2026 Krishna Acharya
-</footer>
-
-</body>
-</html>
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-10">Skills & Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-800 rounded-xl hover:bg-yellow-500 hover:text-black transition">
+        <h3 class="text-xl font-semibold mb-2">SEO & Content</h3>
+        <p class="text-gray-300">Optimize websites for search engines and create content that converts.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-xl hover:bg-yellow-500 hover:text-black transition">
+        <h3 class="text-xl font-semibold mb-2">AI Tools & Automation</h3>
